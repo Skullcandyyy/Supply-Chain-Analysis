@@ -1,25 +1,26 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=180&section=header&text=Supply%20Chain%20Analytics&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+
 # 📦 SUPPLY CHAIN ANALYTICS
 
 ### Turning Supply Chain Data into Actionable Business Insights
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=180&section=header&text=Supply%20Chain%20Analytics&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
-
 <p>
-  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-Numerical%20Analysis-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Seaborn-Visualization-76B5C5?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SQL-Data%20Analysis-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-Numerical%20Analysis-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-Visualization-76B5C5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SQL-Analysis-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Project-Type%3A%20Data%20Analytics-success?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Focus-Supply%20Chain%20Analytics-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Analysis-End--to--End-purple?style=flat-square"/>
+<img src="https://img.shields.io/badge/Data%20Cleaning-Completed-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/EDA-Completed-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Root%20Cause%20Analysis-Completed-purple?style=flat-square"/>
+<img src="https://img.shields.io/badge/Time%20Based%20Analysis-Completed-orange?style=flat-square"/>
 </p>
 
 </div>
@@ -30,7 +31,7 @@
 
 This project presents an **end-to-end Supply Chain Analytics solution** designed to transform raw operational data into meaningful business insights.
 
-The analysis focuses on understanding:
+The analysis focuses on:
 
 - 💰 Profitability
 - 🚚 Delivery performance
@@ -40,65 +41,55 @@ The analysis focuses on understanding:
 - 📦 Supply chain efficiency
 - 📊 Business performance patterns
 
-The objective is to use data analysis and visualization techniques to identify important patterns and provide a clearer understanding of supply chain operations.
+The objective is to analyze supply chain data systematically and identify patterns that can support data-driven operational decision-making.
 
 ---
 
 # 🎯 Business Problem
 
-Supply chain operations involve multiple interconnected processes including products, orders, profitability, delivery, and operational performance.
+Supply chain operations involve multiple interconnected processes such as products, profitability, delivery, and operational performance.
 
-Raw data can make it difficult to understand:
+Raw operational data can make it difficult to understand:
 
-- Which areas are driving profitability?
-- Where are delivery problems occurring?
-- What operational bottlenecks exist?
+- Which areas contribute most to profitability?
+- How does delivery performance vary?
+- Where are potential operational bottlenecks?
 - What factors may contribute to performance issues?
-- How does supply chain performance change over time?
+- How does performance change over time?
 - Which areas require further investigation?
 
-This project uses data analytics to answer these questions and convert raw supply chain data into structured business insights.
+This project uses data analytics and visualization to investigate these questions.
 
 ---
 
-# 🔄 Project Workflow
+# 🔄 Analytical Workflow
 
 ```text
-                    ┌─────────────────┐
-                    │    RAW DATA     │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │ DATA UNDERSTAND │
-                    │      ING        │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │  DATA CLEANING  │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │ TRANSFORMATION  │
-                    └────────┬────────┘
-                             ↓
-              ┌──────────────┼──────────────┐
-              ↓              ↓              ↓
-       PROFITABILITY     DELIVERY       BOTTLENECK
-         ANALYSIS      PERFORMANCE       ANALYSIS
-              │              │              │
-              └──────────────┼──────────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │ TIME-BASED      │
-                    │    ANALYSIS     │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │ ROOT-CAUSE      │
-                    │    ANALYSIS     │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │ BUSINESS        │
-                    │    INSIGHTS     │
-                    └─────────────────┘
+                    RAW DATA
+                       │
+                       ▼
+              DATA UNDERSTANDING
+                       │
+                       ▼
+                DATA CLEANING
+                       │
+                       ▼
+              DATA TRANSFORMATION
+                       │
+                       ▼
+          EXPLORATORY DATA ANALYSIS
+                       │
+             ┌─────────┼─────────┐
+             ▼         ▼         ▼
+        PROFITABILITY DELIVERY  BOTTLENECK
+          ANALYSIS   ANALYSIS    ANALYSIS
+             │         │         │
+             └─────────┼─────────┘
+                       ▼
+              TIME-BASED ANALYSIS
+                       │
+                       ▼
+              ROOT-CAUSE ANALYSIS
+                       │
+                       ▼
+               BUSINESS INSIGHTS
