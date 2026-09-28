@@ -1,4 +1,36 @@
-<div align="center">
+---
+
+# 📊 Analysis & Visualizations
+
+## 💰 1. Profitability Analysis
+
+![Profitability Analysis](./image/profitability_analysis.png)
+
+---
+
+## 🚚 2. Delivery Performance Analysis
+
+![Delivery Performance Analysis](./image/delivery_performance.png)
+
+---
+
+## 🚧 3. Bottleneck Analysis
+
+![Bottleneck Analysis](./image/bottleneck.png)
+
+---
+
+## 🔍 4. Root-Cause Analysis
+
+![Root Cause Analysis](./image/root_cause_analysis.png)
+
+---
+
+## ⏱️ 5. Time-Based Analysis
+
+![Time-Based Analysis](./image/time_based_analysis.png)
+
+---<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=180&section=header&text=Supply%20Chain%20Analytics&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
